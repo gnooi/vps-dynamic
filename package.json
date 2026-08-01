@@ -1,0 +1,15 @@
+{
+  "name": "guestbook",
+  "version": "1.0.0",
+  "description": "Simple guestbook app using Postgres + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "mongodb": "^6.8.0",
+    "dotenv": "^16.4.5"
+  }
+}
